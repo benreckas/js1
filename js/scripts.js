@@ -121,3 +121,13 @@ if (isUnderEighty === true) {
 if (starWars === true) {
   alert("May the force be with you.");
 }
+
+
+
+// Class correction
+
+// var birthday = prompt();
+// birthday = new Date(birthday);
+// var now = new Date();
+//
+// var yearDiff = Math.abs((birthday-now)/31536000000);
