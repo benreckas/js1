@@ -33,13 +33,26 @@
 //   console.log(this);
 // });
 
-var checkScope = function() {
-  console.log(this);
-};
-
-var obj = {
-  test: checkScope
-};
-
-obj.test();
+// var checkScope = function() {
+//   console.log(this);
+// };
+//
+// var obj = {
+//   test: checkScope
+// };
+//
+// obj.test();
 // checkScope();
+
+
+
+const str = "Ben";
+
+function name() {
+  const str = "Reckas";
+  console.log(str);
+};
+
+console.log(str);
+
+name();
